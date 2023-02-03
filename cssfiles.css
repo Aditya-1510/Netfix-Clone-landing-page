@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.background {
+  background-image: url("banner-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  height: 690px;
+  width: 100%;
+  filter: brightness(30%);
+}
+.heading {
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 23px;
+  width: 40%;
+  top: 33%;
+  left: 32%;
+}
+.readytowatch {
+  color: white;
+  font-size: 14px;
+  width: 33%;
+  top: 30%;
+  left: 34%;
+  display: inline;
+  font-weight: bold;
+  text-align: center;
+}
+.Email {
+  height: 50px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.button {
+  height: 50px;
+  width: 180px;
+  background-color: red;
+  color: white;
+  display: inline;
+}
+.button:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+.logo {
+  left: 3%;
+  top: 3%;
+  position: absolute;
+  height: 30px;
+}
+.signinbutton {
+  right: 5%;
+  top: 4%;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  border: red;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.signinbutton:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+.language {
+  right: 13%;
+  top: 4%;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  color: white;
+  border-radius: 4px;
+  background-color: black;
+  cursor: pointer;
+}
+.section-1 {
+  width: 100%;
+}
